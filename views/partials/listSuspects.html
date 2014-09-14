@@ -1,0 +1,41 @@
+<style>
+.suspectsGrid {
+	width: 1170px;
+	height: 250px;
+}
+</style>
+<div ng-controller="ListController as ListCtrl">
+	<div class="alert alert-info" ng-show="loading">Gary El Ta7meel....</div>
+	<div class="row">
+		<div class="col-lg-3">
+			<h2>kol el motahameen</h2>
+		</div>
+		<!-- <div class="col-lg-3">
+			<div class="form-group">
+				<label>Search:</label>
+				<input type="text" class="form-control" placeholder="type anything" ng-model="searchText">
+			</div>
+		</div> -->
+	</div>
+	<div class="row">
+		<div class="col-lg-10">
+			<div ui-grid="allSuspects" class="suspectsGrid" ui-grid-resize-columns></div>
+			<!-- <table class="table table-bordered" ng-table="tableParams">
+				<thead>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Address</th>
+					<th>Phone</th>
+				</thead>
+				<tbody>
+					<tr ng-repeat="suspect in allSuspects | filter: searchText" >
+						<td>{{suspect.fname}}</td>
+						<td>{{suspect.lname}}</td>
+						<td>{{suspect.address}}</td>
+						<td>{{suspect.phone}}</td>
+					</tr>
+				</tbody>
+			</table> -->
+		</div>
+	</div>
+</div>

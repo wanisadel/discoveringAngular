@@ -1,0 +1,44 @@
+[{
+	"id":1,
+	"name":"Bane",
+	"location":"Gotham",
+	"status":"deceased",
+	"lastSeen":"1288323623006",
+	"prize":100000,
+	"mugshot":"img/bane.jpg",
+	"description":"Bane is an escaped convict from an island prison in South America and a super-villain/assassin. Bane has abnormal physical strength as a result of having had undergone experiments involving a derivative of the drug Venom. He became known as 'The Man Who Broke the Bat' when he broke Batman's back, forcing Bruce Wayne to give up the Batman persona while he recuperated",
+	"isWanted":false
+
+},{
+	"id":2,
+	"name":"Penguin",
+	"location":"lazarus pit",
+	"status":"escaped",
+	"lastSeen":"1330207200000",
+	"mugshot":"img/edward.jpg",
+	"prize":500000,
+	"description":"The Penguin, one of Batman's oldest foes, is an eccentric criminal mastermind, known as much for his love of ornithology and trick umbrellas as for his already shady business dealings. Gotham City's popular Iceberg Lounge serves as Penguin's front for a number of illegal financial stature; the Penguin is a wily foe whose umbrellas conceal a variety of deadly weapons and gadgets.",
+	"isWanted":false
+},
+{
+	"id":3,
+	"name":"Joker",
+	"location":"Arkam Asylum",
+	"status":"prisoned",
+	"lastSeen":"1410207914000",
+	"prize":350000,
+	"mugshot":"img/joker.jpg",
+	"description":"The Joker is a supervillain and the archenemy of Batman. He was first introduced in Batman #1 (Spring 1940) and has remained consistently popular. The Joker is a master criminal with a clown-like appearance. Initially portrayed as a violent sociopath who murders people for his own amusement, the Joker later in the 1940s began to be written as a goofy trickster-thief. That characterization continued through the late-1950s and 1960s before the character became again depicted as a vicious, calculating, psychopathic killer. The Joker has been responsible for numerous tragedies in Batman's life, including the paralysis of Barbara Gordon (Batgirl/Oracle) and the murders of Jason Todd (the second Robin) and Jim Gordon's second wife Sarah Essen.",
+	"isWanted":true
+},
+{
+	"id":4,
+	"name":"Deadshot",
+	"location":"Wayne Enterprises",
+	"status":"fugitive",
+	"lastSeen":"12569537329",
+	"prize":240000,
+	"mugshot":"img/deadshot.jpg",
+	"description":"Deadshot is a hired assassin, regularly boasting to 'never miss.' He is capable of using a large variety of weapons, but prefers using a pair of silenced, wrist-mounted guns. He initially appeared in Gotham City as a new crimefighter, but was revealed to be an enemy of Batman when he attempted to replace the Dark Knight. When this plan failed, he attempted to become king of Gotham's Underworld. Batman and Commissioner Gordon publicly exposed his plot, and he was sent to jail.",
+	"isWanted":true
+}]
