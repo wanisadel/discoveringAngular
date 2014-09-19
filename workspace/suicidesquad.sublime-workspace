@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"pr",
+				"promise"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"lo",
+				"loading"
+			],
+			[
+				"$s",
+				"$scope	AngularJS(DI)"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"contro",
+				"controllers"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"$on",
+				"$controller	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
 				"an",
 				"angular"
 			]
@@ -11,15 +51,67 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/wamp/www/suicidesquad/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 789,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/suicidesquad/locale/locale-ar.json",
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 110.0,
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"file",
+				"File: Copy as Tag script"
+			],
+			[
+				"copy",
+				"File: Copy as Tag script"
+			],
+			[
+				"file:cop",
+				"File: Copy as Tag style"
+			],
+			[
+				"file:c",
+				"File: Copy as Tag script"
+			],
+			[
+				"filec",
+				"File: Copy as Tag a"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -27,15 +119,7 @@
 				"Bower: Install"
 			],
 			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
 				"package in",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -43,7 +127,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 472.0
+		"width": 458.0
 	},
 	"console":
 	{
@@ -60,6 +144,33 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/suicidesquad/locale/locale-ar.json",
+		"/C/wamp/www/suicidesquad/scripts/app.js",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/wamp/www/suicidesquad/scripts/controllers/controllers.js",
+		"/C/wamp/www/suicidesquad/index.html",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/wamp/www/suicidesquad/views/partials/listSuspects.html",
+		"/C/wamp/www/suicidesquad/views/directives/top-bar.html",
+		"/C/wamp/www/suicidesquad/views/partials/dashboard.html",
+		"/C/wamp/www/suicidesquad/scripts/vendor/angular.min.js",
+		"/C/wamp/www/suicidesquad/scripts/vendor/ui-grid-unstable.min.js",
+		"/C/wamp/www/suicidesquad/locale/locale-en.json",
+		"/C/wamp/www/suicidesquad/scripts/directives/directives.js",
+		"/C/wamp/www/suicidesquad/styles/ui-grid-unstable.min.css",
+		"/C/wamp/www/suicidesquad/scripts/services/services.js",
+		"/C/wamp/www/suicidesquad/scripts/vendor/ui-grid.min.js",
+		"/C/wamp/www/suicidesquad/styles/ui-grid.min.css",
+		"/C/wamp/www/suicidesquad/scripts/vendor/ng-table.min.js",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/wamp/www/suicidesquad/views/partials/suspectForm.html",
+		"/C/wamp/www/suicidesquad/scripts/vendor/bootstrap.min.js",
+		"/C/wamp/www/suicidesquad/views/listSuspects.html",
+		"/C/wamp/www/suicidesquad/views/suspectForm.html",
+		"/C/wamp/www/suicidesquad/views/header-topbar2.html",
+		"/C/wamp/www/suicidesquad/workspace/suicidesquad.sublime-workspace",
+		"/C/wamp/www/suicidesquad/workspace/suicidesquad.sublime-project",
 		"/C/wamp/www/superheros/controllers.js",
 		"/C/wamp/www/superheros/index.html",
 		"/C/wamp/www/superheros/directives.js",
@@ -69,7 +180,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -83,6 +194,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	\n",
+			"ui-grid",
+			"             ",
+			"});\n",
+			"<div ng-controller=\"InfoController as info\">\n	<div class=\"row\" >\n		<div class=\"page-header\">\n			<h1>{{'WEBAPP_HEADER_LABEL'|translate}}</h1>\n		</div>\n		<div class=\"col-sm-6 col-md-3\" ng-repeat=\"superHero in superHeros.data \">\n			<div class=\"thumbnail\">\n				<img ng-src=\"{{superHero.mugshot}}\" alt=\"...\">\n				<div class=\"caption\">\n					<h4 class=\"text-center\">{{superHero.name}}</h4>\n					<h5>{{ 'LOCATION_LABEL' | translate }} {{superHero.location}}</h5>\n					<h5>{{ 'LAST_SEEN_LABEL' | translate }} {{superHero.lastSeen |date:'dd-MM-yyyy'}}</h5>\n					<h5>{{ 'PRIZE_LABEL' | translate }} {{superHero.prize |currency}}</h5>\n					<h5>\n						<span class=\"label label-danger\">{{superHero.status}}</span>\n						<a href=\"\" class=\"text-right\" style=\"margin-left:85px\" ng-click=\"selectHero(superHero.id)\"> {{ 'VIEW_PORTFOLIO_LABEL' | translate }}</a>\n					</h5>\n					<!--<p><a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a> <a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a></p>-->\n				</div>\n			</div>\n			\n		</div>\n		\n	</div>\n	<div class=\"row\">\n		<div class=\"panel panel-default\">\n			<div class=\"panel-heading\">{{superHeros.data[selectedHeroId-1].name}}</div>\n			<div class=\"panel-body\">\n				{{superHeros.data[selectedHeroId-1].description}}\n			</div>\n		</div>\n	</div>\n	\n</div>",
+			"modal"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -100,8 +217,159 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/suicidesquad/scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/suicidesquad/locale/locale-ar.json",
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								112
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -111,7 +379,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -146,6 +414,90 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"loc",
+				"locale/locale-ar.json"
+			],
+			[
+				"loca",
+				"locale/locale-ar.json"
+			],
+			[
+				"contro",
+				"scripts/controllers/controllers.js"
+			],
+			[
+				"dire",
+				"scripts/directives/directives.js"
+			],
+			[
+				"angu",
+				"scripts/vendor/angular.min.js"
+			],
+			[
+				"dash",
+				"views/partials/dashboard.html"
+			],
+			[
+				"ui",
+				"scripts/vendor/ui-grid-unstable.min.js"
+			],
+			[
+				"lists",
+				"views/partials/listSuspects.html"
+			],
+			[
+				"top",
+				"views/directives/top-bar.html"
+			],
+			[
+				"a",
+				"scripts/app.js"
+			],
+			[
+				"uns",
+				"styles/ui-grid-unstable.min.css"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"lis",
+				"views/partials/listSuspects.html"
+			],
+			[
+				"ng-",
+				"scripts/vendor/ng-table.min.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"susp",
+				"views/partials/suspectForm.html"
+			],
+			[
+				"serv",
+				"scripts/services/services.js"
+			],
+			[
+				"ap",
+				"scripts/app.js"
+			],
+			[
+				"contr",
+				"scripts/controllers/controllers.js"
+			],
+			[
+				"controll",
+				"scripts/controllers/controllers.js"
+			],
+			[
+				"app.",
+				"scripts/app.js"
+			]
 		],
 		"width": 0.0
 	},
@@ -157,10 +509,10 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true
 }

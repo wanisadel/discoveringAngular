@@ -1,7 +1,7 @@
 {
-	"WEBAPP_HEADER_LABEL": "Discovering AngularJS",
-    "LOCATION_LABEL": "location",
-    "LAST_SEEN_LABEL": "last seen",
-	"PRIZE_LABEL": "prize",
-	"VIEW_PORTFOLIO_LABEL": "view portfolio"
+  "WEBAPP_HEADER_LABEL": "Discovering AngularJS",
+  "LOCATION_LABEL": "location",
+  "LAST_SEEN_LABEL": "last seen",
+  "PRIZE_LABEL": "prize",
+  "VIEW_PORTFOLIO_LABEL": "view portfolio"
 }

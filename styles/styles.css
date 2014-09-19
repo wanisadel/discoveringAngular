@@ -1,0 +1,12 @@
+input.ng-invalid.ng-dirty {
+	border: 1px solid #843534;
+}
+input.ng-invalid.ng-dirty:focus{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483;
+}
+input.ng-valid.ng-dirty {
+	border: 1px solid green;
+}
+.error{
+	color: #843534;
+}

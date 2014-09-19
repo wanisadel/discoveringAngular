@@ -3,7 +3,7 @@
 		<div class="page-header">
 			<h1>{{'WEBAPP_HEADER_LABEL'|translate}}</h1>
 		</div>
-		<div class="col-sm-6 col-md-3" ng-repeat="superHero in superHeros.data ">
+		<div class="col-sm-9 col-md-3" ng-repeat="superHero in superHeros.data ">
 			<div class="thumbnail">
 				<img ng-src="{{superHero.mugshot}}" alt="...">
 				<div class="caption">
@@ -13,7 +13,7 @@
 					<h5>{{ 'PRIZE_LABEL' | translate }} {{superHero.prize |currency}}</h5>
 					<h5>
 						<span class="label label-danger">{{superHero.status}}</span>
-						<a href="" class="text-right" style="margin-left:85px" ng-click="selectHero(superHero.id)"> {{ 'VIEW_PORTFOLIO_LABEL' | translate }}</a>
+						<a href='' class="text-right" style="margin-left:85px" ng-click="selectHero(superHero.id)"> {{ 'VIEW_PORTFOLIO_LABEL' | translate }}</a>
 					</h5>
 					<!--<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
 				</div>

@@ -23,7 +23,13 @@ controllers.controller("InfoController",['$http','$scope','suspectsService',func
 		$scope.selectedHeroId = selectedHeroId;
 	}
 }]);
-controllers.controller("manageSuspectController",['$scope','suspectsService',function($scope,suspectsService){
+controllers.controller("manageSuspectController",['$scope','suspectsService','citiesService',function($scope,suspectsService,citiesService){
+	
+	$scope.cities  = {};
+	$scope.promise = citiesService.getCities();
+	$scope.promise.then(function(data){
+		$scope.cities = data.data;
+	});
 	$scope.addSuspect = function(suspectObj){
 		console.table(suspectsService.suspects);
 		suspectsService.suspects.data.push(suspectObj);
@@ -33,7 +39,8 @@ controllers.controller("manageSuspectController",['$scope','suspectsService',fun
 }]);
 controllers.controller("panelController",['$translate','$scope',function($translate,$scope){
 	$scope.tab = 1;
-	$scope.panelItems=[{id:1,name:"Dashboard",location:"#/dashboard"},
+	$scope.panelItems=[
+	{id:1,name:"Dashboard",location:"#/dashboard"},
 	{id:2,name:"List All Suspects",location:"#/list"}];
 	$scope.isSelected = function(checkTab){
 		return $scope.tab == checkTab;
@@ -59,7 +66,13 @@ controllers.controller("ListController",['$scope','$http',function($scope,$http)
 		{ field: 'lname' },
 		{ field: 'phone' },
 		{ field: 'address'},
+		{field:'add',cellTemplate:'<button class="btn" value="mido" ng-click="addSuspect(row)"></button>'}
 		]
+	};
+
+	$scope.addSuspect = function(row){
+
+		console.table(row);
 	};
 
 	$scope.$on('loading_suspects',function(){
@@ -70,7 +83,7 @@ controllers.controller("ListController",['$scope','$http',function($scope,$http)
 	});
 
 	$scope.$broadcast('loading_suspects');
-	$http.jsonp("http://www.filltext.com/?callback=JSON_CALLBACK&rows=10&fname={firstName}&lname={lastName}&phone={phone}&address={streetAddress}&delay=1").
+	$http.jsonp("http://www.filltext.com/?callback=JSON_CALLBACK&rows=10&fname={firstName}&lname={lastName}&phone={phone}&address={streetAddress}").
 	success(function(data){
 		$scope.$broadcast('done_loading_suspects');
 		$scope.allSuspects.data = data;

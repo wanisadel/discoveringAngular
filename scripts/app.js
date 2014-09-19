@@ -1,4 +1,4 @@
-var app = angular.module('shop', ['ngRoute','controllers','directives','services','pascalprecht.translate']);
+var app = angular.module('shop', ['ngRoute','controllers','directives','services']);
 	// routing configuration
 app.config(['$routeProvider',
   function($routeProvider) {
@@ -21,7 +21,7 @@ app.config(['$routeProvider',
   }]);
 
 app.controller('HeaderController',['$scope','$locale',function($scope,$locale){
-	if($locale.id == 'en-us'){
+	//if($locale.id == 'en-us'){
 		$scope.filename= './styles/bootstrap.min.css';
-  }
+  //}
 }]);
