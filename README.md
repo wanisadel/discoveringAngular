@@ -5,11 +5,11 @@ discoveringAngular
 
 a sample project addressing the different aspects of Angular JS
 
-#Modules included:
+#Components used so far:
   
-  -ng-translate
-  -ng-grid
-  -twitter bootstrap
-  -jquery
+  1.ng-translate
+  2.ng-grid
+  3.twitter bootstrap
+  4.jquery
 
 
