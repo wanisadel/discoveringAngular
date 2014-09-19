@@ -25,16 +25,23 @@ controllers.controller("InfoController",['$http','$scope','suspectsService',func
 }]);
 controllers.controller("manageSuspectController",['$scope','suspectsService','citiesService',function($scope,suspectsService,citiesService){
 	
+	$scope.suspectObj = {};
 	$scope.cities  = {};
 	$scope.promise = citiesService.getCities();
 	$scope.promise.then(function(data){
 		$scope.cities = data.data;
 	});
+	$scope.showValidation = false;
+	$scope.triggerValidation = function(){
+		$scope.showValidation = true;
+	};
 	$scope.addSuspect = function(suspectObj){
 		console.table(suspectsService.suspects);
 		suspectsService.suspects.data.push(suspectObj);
 		$('#addSuspect').modal('hide');
 		$scope.suspectObj = {};
+		$scope.suspectForm.$setPristine();
+		$scope.showValidation = false;
 	}
 }]);
 controllers.controller("panelController",['$translate','$scope',function($translate,$scope){

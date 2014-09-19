@@ -1,7 +1,7 @@
 [{
 	"id":1,
 	"name":"Bane",
-	"location":"Gotham",
+	"location":{"city":"Gotham"},
 	"status":"deceased",
 	"lastSeen":"1288323623006",
 	"prize":100000,
@@ -12,7 +12,7 @@
 },{
 	"id":2,
 	"name":"Penguin",
-	"location":"lazarus pit",
+	"location":{"city":"lazarus pit"},
 	"status":"escaped",
 	"lastSeen":"1330207200000",
 	"mugshot":"img/edward.jpg",
@@ -23,7 +23,7 @@
 {
 	"id":3,
 	"name":"Joker",
-	"location":"Arkam Asylum",
+	"location":{"city":"Arkam Asylum"},
 	"status":"prisoned",
 	"lastSeen":"1410207914000",
 	"prize":350000,
@@ -34,7 +34,7 @@
 {
 	"id":4,
 	"name":"Deadshot",
-	"location":"Wayne Enterprises",
+	"location":{"city":"Wayne Enterprises"},
 	"status":"fugitive",
 	"lastSeen":"12569537329",
 	"prize":240000,

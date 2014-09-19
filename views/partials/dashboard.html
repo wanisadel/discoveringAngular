@@ -8,7 +8,7 @@
 				<img ng-src="{{superHero.mugshot}}" alt="...">
 				<div class="caption">
 					<h4 class="text-center">{{superHero.name}}</h4>
-					<h5>{{ 'LOCATION_LABEL' | translate }} {{superHero.location}}</h5>
+					<h5>{{ 'LOCATION_LABEL' | translate }} {{superHero.location.city}}</h5>
 					<h5>{{ 'LAST_SEEN_LABEL' | translate }} {{superHero.lastSeen |date:'dd-MM-yyyy'}}</h5>
 					<h5>{{ 'PRIZE_LABEL' | translate }} {{superHero.prize |currency}}</h5>
 					<h5>
