@@ -11,11 +11,16 @@
         </button>
         <a class="navbar-brand" href="#">suicide squad recruitment</a>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav" ng-repeat="item in panelItems">
-          <li ng-class="{active:isSelected(item.id)}" >
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-init="tab = 1">
+        <ul class="nav navbar-nav">
+          <!-- <li ng-class="{active:isSelected(item.id)}" >
            <a href ng-click="selectTab(item.id)">{{item.name}}</a>
+         </li> -->
+         <li ng-class="{active:tab===1}">
+           <a href="#/dashboard"ng-click="tab=1" >Dashboard</a>
+         </li>
+         <li ng-class="{active:tab===2}">
+           <a href="#/list" ng-click="tab=2">List all suspects</a>
          </li>
        </ul>
        <ul class="nav navbar-nav navbar-right">

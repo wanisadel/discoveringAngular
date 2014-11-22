@@ -36,21 +36,6 @@ app.controller("manageSuspectController",['$scope','suspectsService','citiesServ
 	}
 }]);
 app.controller("panelController",['$translate','$scope','$locale','cssInjector',function($translate,$scope,$locale,cssInjector){
-	$scope.tab = 1;
-	$scope.panelItems
-	=
-	 [
-		{id:1,name:"Dashboard",location:"#/dashboard"},
-		{id:2,name:"List All Suspects",location:"#/list"}
-	 ];
-	$scope.isSelected = function(checkTab){
-		return $scope.tab == checkTab;
-	};
-	$scope.selectTab = function(setTab)
-	{
-		$scope.tab = setTab;
-		window.location.href = $scope.panelItems[setTab-1].location;
-	};
 	$scope.changeLang = function(lang)
 	{
 		if(lang=='ar')
@@ -64,7 +49,6 @@ app.controller("panelController",['$translate','$scope','$locale','cssInjector',
 		$locale.id  = lang;
 		$translate.use(lang);
 	}
-	
 }]);
 
 app.controller("ListController",['$scope','$http',function($scope,$http){
