@@ -3,6 +3,12 @@
 	[
 		{
 			"path": "/C/wamp/www/suicidesquad"
+		},
+		{
+			"path": "/C/wamp/www/html5-boilerplate-4.3.0"
+		},
+		{
+			"path": "/C/wamp/www/angularjs-lazy-loading-with-requirejs-master"
 		}
 	]
 }

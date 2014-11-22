@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"mo",
+				"mido"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"sus",
+				"suspectForm"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"add",
+				"addSuspect"
+			],
+			[
+				"a",
+				"allSuspects"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ng-s",
+				"ng-show	AngularJS"
+			],
+			[
 				"pr",
 				"promise"
 			],
@@ -51,31 +95,31 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/wamp/www/suicidesquad/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 789,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/suicidesquad/locale/locale-ar.json",
-			"settings":
-			{
-				"buffer_size": 177,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 110.0,
+		"height": 285.0,
 		"selected_items":
 		[
 			[
+				"copy",
+				"File: Copy as Tag script"
+			],
+			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"file:",
+				"File: Copy as Tag script"
+			],
+			[
+				"filec",
+				"File: Copy as Tag style"
+			],
+			[
+				"package:in",
 				"Package Control: Install Package"
 			],
 			[
@@ -95,20 +139,12 @@
 				"File: Copy as Tag script"
 			],
 			[
-				"copy",
-				"File: Copy as Tag script"
-			],
-			[
 				"file:cop",
 				"File: Copy as Tag style"
 			],
 			[
 				"file:c",
 				"File: Copy as Tag script"
-			],
-			[
-				"filec",
-				"File: Copy as Tag a"
 			],
 			[
 				"instal",
@@ -144,27 +180,67 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/suicidesquad/locale/locale-ar.json",
-		"/C/wamp/www/suicidesquad/scripts/app.js",
-		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/C/wamp/www/suicidesquad/scripts/controllers/controllers.js",
-		"/C/wamp/www/suicidesquad/index.html",
-		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/wamp/www/suicidesquad/views/partials/listSuspects.html",
-		"/C/wamp/www/suicidesquad/views/directives/top-bar.html",
-		"/C/wamp/www/suicidesquad/views/partials/dashboard.html",
-		"/C/wamp/www/suicidesquad/scripts/vendor/angular.min.js",
-		"/C/wamp/www/suicidesquad/scripts/vendor/ui-grid-unstable.min.js",
-		"/C/wamp/www/suicidesquad/locale/locale-en.json",
-		"/C/wamp/www/suicidesquad/scripts/directives/directives.js",
-		"/C/wamp/www/suicidesquad/styles/ui-grid-unstable.min.css",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/README.md",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/index.html",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/.gitattributes",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/package.json",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/server.js",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/scripts/app.js",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/scripts/directives/app-color.js",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/views/about.html",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/views/contact.html",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/views/home.html",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/scripts/bootstrap.js",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/scripts/controllers/AboutViewController.js",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/scripts/controllers/ContactViewController.js",
+		"/C/wamp/www/angularjs-lazy-loading-with-requirejs-master/app/scripts/controllers/HomeViewController.js",
+		"/C/wamp/www/html5-boilerplate-4.3.0/index.html",
+		"/C/wamp/www/html5-boilerplate-4.3.0/crossdomain.xml",
+		"/C/wamp/www/html5-boilerplate-4.3.0/CONTRIBUTING.md",
+		"/C/wamp/www/html5-boilerplate-4.3.0/CHANGELOG.md",
+		"/C/wamp/www/html5-boilerplate-4.3.0/apple-touch-icon-precomposed.png",
+		"/C/wamp/www/html5-boilerplate-4.3.0/404.html",
+		"/C/wamp/www/html5-boilerplate-4.3.0/.htaccess",
+		"/C/wamp/www/html5-boilerplate-4.3.0/.gitignore",
+		"/C/wamp/www/html5-boilerplate-4.3.0/.gitattributes",
+		"/C/wamp/www/html5-boilerplate-4.3.0/js/plugins.js",
+		"/C/wamp/www/html5-boilerplate-4.3.0/js/main.js",
+		"/C/wamp/www/html5-boilerplate-4.3.0/js/vendor/modernizr-2.6.2.min.js",
+		"/C/wamp/www/html5-boilerplate-4.3.0/img/.gitignore",
+		"/C/wamp/www/html5-boilerplate-4.3.0/doc/usage.md",
+		"/C/wamp/www/html5-boilerplate-4.3.0/doc/TOC.md",
+		"/C/wamp/www/html5-boilerplate-4.3.0/doc/misc.md",
+		"/C/wamp/www/html5-boilerplate-4.3.0/doc/js.md",
+		"/C/wamp/www/html5-boilerplate-4.3.0/css/normalize.css",
+		"/C/wamp/www/html5-boilerplate-4.3.0/css/main.css",
+		"/C/wamp/www/html5-boilerplate-4.3.0/humans.txt",
+		"/C/wamp/www/html5-boilerplate-4.3.0/favicon.ico",
 		"/C/wamp/www/suicidesquad/scripts/services/services.js",
+		"/C/wamp/www/suicidesquad/scripts/app.js",
+		"/C/wamp/www/suicidesquad/scripts/filters/filters.js",
+		"/C/wamp/www/suicidesquad/index.html",
+		"/C/wamp/www/suicidesquad/scripts/directives/directives.js",
+		"/C/wamp/www/suicidesquad/scripts/controllers/controllers.js",
+		"/C/wamp/www/suicidesquad/views/partials/dashboard.html",
+		"/C/wamp/www/suicidesquad/stubs/heros.json",
+		"/C/wamp/www/suicidesquad/stubs/cities.json",
+		"/C/wamp/www/suicidesquad/styles/styles.css",
+		"/C/wamp/www/suicidesquad/views/directives/top-bar.html",
+		"/C/wamp/www/suicidesquad/scripts/vendor/angular.min.js",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/suicidesquad/views/partials/listSuspects.html",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/C/wamp/www/suicidesquad/locale/locale-ar.json",
+		"/C/wamp/www/suicidesquad/locale/locale-en.json",
+		"/C/wamp/www/suicidesquad/views/partials/suspectForm.html",
+		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/wamp/www/suicidesquad/scripts/vendor/ui-grid-unstable.min.js",
+		"/C/wamp/www/suicidesquad/styles/ui-grid-unstable.min.css",
 		"/C/wamp/www/suicidesquad/scripts/vendor/ui-grid.min.js",
 		"/C/wamp/www/suicidesquad/styles/ui-grid.min.css",
 		"/C/wamp/www/suicidesquad/scripts/vendor/ng-table.min.js",
 		"/C/Users/wanis/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/C/wamp/www/suicidesquad/views/partials/suspectForm.html",
 		"/C/wamp/www/suicidesquad/scripts/vendor/bootstrap.min.js",
 		"/C/wamp/www/suicidesquad/views/listSuspects.html",
 		"/C/wamp/www/suicidesquad/views/suspectForm.html",
@@ -194,6 +270,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".js",
+			"ng",
+			".toLocaleString()",
+			"currency",
+			"curency",
+			"curencyd",
+			"curency",
+			"city",
+			"option",
+			"\">\n",
 			"	\n",
 			"ui-grid",
 			"             ",
@@ -207,6 +293,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"city\""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -217,159 +304,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/wamp/www/suicidesquad/scripts/app.js",
-					"settings":
-					{
-						"buffer_size": 789,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								497,
-								497
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/wamp/www/suicidesquad/locale/locale-ar.json",
-					"settings":
-					{
-						"buffer_size": 177,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								112
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -406,7 +342,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -415,12 +351,104 @@
 		"selected_items":
 		[
 			[
-				"loc",
-				"locale/locale-ar.json"
+				"dashb",
+				"views/partials/dashboard.html"
 			],
 			[
-				"loca",
-				"locale/locale-ar.json"
+				"fil",
+				"scripts/filters/filters.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"direc",
+				"scripts/directives/directives.js"
+			],
+			[
+				"servi",
+				"scripts/services/services.js"
+			],
+			[
+				"style",
+				"styles/styles.css"
+			],
+			[
+				"top",
+				"views/directives/top-bar.html"
+			],
+			[
+				"to",
+				"views/directives/top-bar.html"
+			],
+			[
+				"app",
+				"scripts/app.js"
+			],
+			[
+				"angu",
+				"scripts/vendor/angular.min.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"styl",
+				"styles/styles.css"
+			],
+			[
+				"citie",
+				"stubs/cities.json"
+			],
+			[
+				"hero",
+				"stubs/heros.json"
+			],
+			[
+				"ser",
+				"scripts/services/services.js"
+			],
+			[
+				"con",
+				"scripts/controllers/controllers.js"
+			],
+			[
+				"heros",
+				"stubs/heros.json"
+			],
+			[
+				"dash",
+				"views/partials/dashboard.html"
+			],
+			[
+				"list",
+				"views/partials/listSuspects.html"
+			],
+			[
+				"her",
+				"stubs/heros.json"
+			],
+			[
+				"control",
+				"scripts/controllers/controllers.js"
+			],
+			[
+				"cont",
+				"scripts/controllers/controllers.js"
+			],
+			[
+				"he",
+				"stubs/heros.json"
+			],
+			[
+				"aps",
+				"scripts/app.js"
+			],
+			[
+				"",
+				"views/directives/top-bar.html"
 			],
 			[
 				"contro",
@@ -431,12 +459,24 @@
 				"scripts/directives/directives.js"
 			],
 			[
-				"angu",
-				"scripts/vendor/angular.min.js"
+				"in",
+				"index.html"
 			],
 			[
-				"dash",
-				"views/partials/dashboard.html"
+				"susp",
+				"views/partials/suspectForm.html"
+			],
+			[
+				"sus",
+				"views/partials/suspectForm.html"
+			],
+			[
+				"loc",
+				"locale/locale-ar.json"
+			],
+			[
+				"loca",
+				"locale/locale-ar.json"
 			],
 			[
 				"ui",
@@ -447,20 +487,12 @@
 				"views/partials/listSuspects.html"
 			],
 			[
-				"top",
-				"views/directives/top-bar.html"
-			],
-			[
 				"a",
 				"scripts/app.js"
 			],
 			[
 				"uns",
 				"styles/ui-grid-unstable.min.css"
-			],
-			[
-				"in",
-				"index.html"
 			],
 			[
 				"lis",
@@ -473,10 +505,6 @@
 			[
 				"index",
 				"index.html"
-			],
-			[
-				"susp",
-				"views/partials/suspectForm.html"
 			],
 			[
 				"serv",
@@ -513,6 +541,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 157.0,
+	"side_bar_width": 261.0,
 	"status_bar_visible": true
 }

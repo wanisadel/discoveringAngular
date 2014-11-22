@@ -1,15 +1,4 @@
-var controllers = angular.module('controllers', ['pascalprecht.translate','ui.grid','ui.grid.resizeColumns']);
-
-controllers.config(['$translateProvider', function ($translateProvider) {
-	$translateProvider.preferredLanguage('en');
-	$translateProvider.useStaticFilesLoader({
-		prefix: './locale/locale-',
-		suffix: '.json'
-	});
-}]);
-
-
-controllers.controller("InfoController",['$http','$scope','suspectsService',function($http,$scope,suspectsService){
+app.controller("InfoController",['$http','$scope','suspectsService',function($http,$scope,suspectsService){
 
 	$scope.selectedHeroId = 1;
 	$scope.superHeros = {};
@@ -23,7 +12,7 @@ controllers.controller("InfoController",['$http','$scope','suspectsService',func
 		$scope.selectedHeroId = selectedHeroId;
 	}
 }]);
-controllers.controller("manageSuspectController",['$scope','suspectsService','citiesService',function($scope,suspectsService,citiesService){
+app.controller("manageSuspectController",['$scope','suspectsService','citiesService',function($scope,suspectsService,citiesService){
 	
 	$scope.suspectObj = {};
 	$scope.cities  = {};
@@ -37,6 +26,8 @@ controllers.controller("manageSuspectController",['$scope','suspectsService','ci
 	};
 	$scope.addSuspect = function(suspectObj){
 		console.table(suspectsService.suspects);
+		suspectObj.mugshot = "img/catwoman.jpg";
+		suspectObj.id = 5;
 		suspectsService.suspects.data.push(suspectObj);
 		$('#addSuspect').modal('hide');
 		$scope.suspectObj = {};
@@ -44,11 +35,14 @@ controllers.controller("manageSuspectController",['$scope','suspectsService','ci
 		$scope.showValidation = false;
 	}
 }]);
-controllers.controller("panelController",['$translate','$scope',function($translate,$scope){
+app.controller("panelController",['$translate','$scope','$locale','cssInjector',function($translate,$scope,$locale,cssInjector){
 	$scope.tab = 1;
-	$scope.panelItems=[
-	{id:1,name:"Dashboard",location:"#/dashboard"},
-	{id:2,name:"List All Suspects",location:"#/list"}];
+	$scope.panelItems
+	=
+	 [
+		{id:1,name:"Dashboard",location:"#/dashboard"},
+		{id:2,name:"List All Suspects",location:"#/list"}
+	 ];
 	$scope.isSelected = function(checkTab){
 		return $scope.tab == checkTab;
 	};
@@ -59,12 +53,21 @@ controllers.controller("panelController",['$translate','$scope',function($transl
 	};
 	$scope.changeLang = function(lang)
 	{
+		if(lang=='ar')
+		{
+			 cssInjector.add("./styles/bootstrap-rtl.min.css");
+		}
+		else
+		{
+			cssInjector.removeAll();
+		}
+		$locale.id  = lang;
 		$translate.use(lang);
 	}
 	
 }]);
 
-controllers.controller("ListController",['$scope','$http',function($scope,$http){
+app.controller("ListController",['$scope','$http',function($scope,$http){
 
 	$scope.allSuspects = {
 		enableFiltering: true,
@@ -72,14 +75,8 @@ controllers.controller("ListController",['$scope','$http',function($scope,$http)
 		{ field: 'fname' },
 		{ field: 'lname' },
 		{ field: 'phone' },
-		{ field: 'address'},
-		{field:'add',cellTemplate:'<button class="btn" value="mido" ng-click="addSuspect(row)"></button>'}
+		{ field: 'address'}
 		]
-	};
-
-	$scope.addSuspect = function(row){
-
-		console.table(row);
 	};
 
 	$scope.$on('loading_suspects',function(){

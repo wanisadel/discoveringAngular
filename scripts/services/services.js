@@ -1,5 +1,4 @@
-var services = angular.module('services', []);
-services.service('suspectsService', ['$http','$q',function($http,$q) {
+app.service('suspectsService', ['$http','$q',function($http,$q) {
 	this.suspects = "";
 	var deferred = $q.defer();
 	$http.get('./stubs/heros.json').then(function(data) {
@@ -9,7 +8,7 @@ services.service('suspectsService', ['$http','$q',function($http,$q) {
 		return deferred.promise;
 	};
 }]);
-services.service('citiesService', ['$http','$q',function($http,$q) {
+app.service('citiesService', ['$http','$q',function($http,$q) {
 	this.cities = "";
 	var deferred = $q.defer();
 	$http.get('./stubs/cities.json').then(function(data) {
