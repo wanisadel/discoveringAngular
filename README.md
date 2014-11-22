@@ -1,13 +1,13 @@
-discoveringAngular
-==================
 
-learning angularJS
+##Learning Angular JS
 
-Modules included:
+A sample project addressing the different aspects of Angular JS
+
+##Components used so far:
   
-  ng-translate
-  ng-grid
-  twitter bootstrap
-  jquery
+  1. ng-translate
+  2. ng-grid
+  3. twitter bootstrap
+  4. jquery
 
 
